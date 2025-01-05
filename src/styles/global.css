@@ -8,12 +8,12 @@
 
   /*========== Colors ==========*/
   /* Color mode HSL(hue, saturation, lightness) */
-  --first-color: ;
-  --title-color: ;
-  --text-color: ;
-  --body-color: ;
-  --container-color: ;
-  --border-color: ;
+  --first-color: hsl(350, 98%, 64%);
+  --title-color: hsl(0, 0%, 100%);
+  --text-color: hsl(0, 0%, 77%);
+  --body-color: hsl(0, 0%, 6%);
+  --container-color: hsl(0, 0%, 10%);
+  --border-color: hsla(0, 0%, 100%, 0.2);
 
   /*========== Font and typography ==========*/
   /* .5rem = 8px | 1rem = 16px ... */
