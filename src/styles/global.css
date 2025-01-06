@@ -271,8 +271,8 @@ input {
 
 .services__icon {
   color: var(--first-color);
-  font-size: 3.25rem;
-  line-height: 1;
+  font-size: 3.25rem !important;
+  line-height: 1 !important;
 }
 
 .services__title {
