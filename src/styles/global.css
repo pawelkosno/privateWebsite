@@ -119,6 +119,15 @@ input {
   gap: 1.75rem;
 }
 
+.section {
+  padding-block: 8rem;
+}
+
+.section__title {
+  font-size: var((--h1-font-size));
+  margin-bottom: 1rem;
+}
+
 /*=============== HEADER & NAV ===============*/
 
 /* Active link */
@@ -164,6 +173,51 @@ input {
 
 /*=============== ABOUT ===============*/
 
+.about {
+  background-color: var(--container-color);
+}
+
+.about__container {
+  grid-template-columns: 5fr 7fr;
+  align-items: center;
+  column-gap: 4rem;
+}
+
+.about__img {
+  border-radius: var(--radius);
+}
+
+.about__description {
+  margin-bottom: 2rem;
+}
+
+.tabs__btns {
+  display: flex;
+  column-gap: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.tabs__btn,
+.tabs__description span:first-child {
+  font-weight: var(--weight-500);
+}
+
+.tabs__btn {
+  cursor: pointer;
+  color: var(--title-color);
+  position: relative;
+}
+
+.tabs__btn::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 30%;
+  height: 2px;
+  background-color: var(--text-color);
+}
+
 /* Active tab */
 
 /*=============== SERVICES ===============*/
@@ -197,106 +251,4 @@ input {
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-}
-
-/*Font styles*/
-.montserrat-thin {
-  font-family: 'Montserrat', serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.montserrat-light {
-  font-family: 'Montserrat', serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.montserrat-regular {
-  font-family: 'Montserrat', serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.montserrat-medium {
-  font-family: 'Montserrat', serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.montserrat-bold {
-  font-family: 'Montserrat', serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.montserrat-black {
-  font-family: 'Montserrat', serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.montserrat-thin-italic {
-  font-family: 'Montserrat', serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.montserrat-light-italic {
-  font-family: 'Montserrat', serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.montserrat-regular-italic {
-  font-family: 'Montserrat', serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.montserrat-medium-italic {
-  font-family: 'Montserrat', serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.montserrat-bold-italic {
-  font-family: 'Montserrat', serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.montserrat-black-italic {
-  font-family: 'Montserrat', serif;
-  font-weight: 900;
-  font-style: italic;
-}
-
-/* Font sizes */
-.font-mini {
-  font-size: 8px;
-}
-
-.font-small {
-  font-size: 12px;
-}
-
-.font-medium {
-  font-size: 16px;
-}
-
-.font-large {
-  font-size: 20px;
-}
-
-.font-header-small {
-  font-size: 24px;
-}
-
-.font-header-medium {
-  font-size: 28px;
-}
-
-.font-header-large {
-  font-size: 32px;
 }
