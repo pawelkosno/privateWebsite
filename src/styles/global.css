@@ -144,6 +144,24 @@ input {
   display: block;
 }
 
+.home__title {
+  font-family: var(--second-font);
+  font-size: var(--big-font-size);
+  font-weight: var(--weight-900);
+}
+
+.home__title span {
+  color: var(--first-color);
+}
+
+.home__img {
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  border: 0.75rem solid var(--container-color);
+  margin-left: auto;
+}
+
 /*=============== ABOUT ===============*/
 
 /* Active tab */
